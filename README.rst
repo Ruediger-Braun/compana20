@@ -61,12 +61,17 @@ verteilt.
 Übungspunkte
 ------------
 
-Jeden Donnerstag wird ein Übungsblatt herausgegeben.  Die Aufgaben werden in
-den Übungsstunden bearbeitet und dann sofort von den Mitarbeiterinnen und
-Mitarbeitern bewertet.  Das Semester wird in zwei Teile geteilt, nämlich "vor
-Weihnachten" und "nach Weihnachten".  An der Klausur kann nur teilnehmen, wer
-in jedem der beiden Teile mindestens 40% der jeweils möglichen Punkte erworben
-hat.
+Jeden Donnerstag wird ein Übungsblatt herausgegeben.  Die Bearbeitungen werden
+am darauf folgenden Donnerstag im ILIAS im Unterabschnitt der jeweiligen
+Gruppe elektronisch abgegeben.  In der nächsten Übungsstunde müssen die
+Studierenden ihre Lösung der Übungsleitung präsentieren; wenn die Lösung im
+wesentlichen richtig ist, gibt es den Punkt.  Die Übungsleitung kann
+Nachbesserungen verlangen.
+
+Die Aufgaben von Blatt 1 dienen zur Eingewöhnung.  Die nächsten 5 Blätter
+bilden die erste, die anderen 5 Blätter die zweite Hälfte des Kurses.  An der
+Klausur kann nur teilnehmen, wer in jedem der beiden Teile mindestens 40% der
+jeweils möglichen Punkte erworben hat.
 
 Prüfungen
 ---------
