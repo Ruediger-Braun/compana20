@@ -33,11 +33,11 @@ Installationsanleitungen stehen für MS-Windows und Linux zur Verfügung:
 Vorlesung
 ---------
 
-Die Vorlesung wird als Screencast aufgenommen und wöchentlich vor dem
-ursprünglich vorgesehenen Termin in dem Kanal CompAna20_ auf Vimeo bereit
-gestellt.
+Die Vorlesung wird als Screencast aufgenommen.  Die Screencasts gibt es in dem
+Ordner `Videos`_ des ILIAS_.
 
-.. _CompAna20: https://vimeo.com/channels/compana20
+.. _ILIAS: https://ilias.hhu.de/ilias/goto.php?target=crs_871977&client_id=UniRZ
+.. _ Videos: https://ilias.hhu.de/ilias/goto.php?target=fold_911661&client_id=UniRZ
 
 Übungsgruppen
 -------------
