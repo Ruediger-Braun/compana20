@@ -34,7 +34,7 @@ Vorlesung
 ---------
 
 Die Vorlesung wird als Screencast aufgenommen.  Die Screencasts gibt es in dem
-Ordner `Videos`_ des ILIAS_.
+Ordner Videos_ des ILIAS_.
 
 .. _ILIAS: https://ilias.hhu.de/ilias/goto.php?target=crs_871977&client_id=UniRZ
 .. _ Videos: https://ilias.hhu.de/ilias/goto.php?target=fold_911661&client_id=UniRZ
