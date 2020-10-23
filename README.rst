@@ -68,10 +68,9 @@ Studierenden ihre Lösung der Übungsleitung präsentieren; wenn die Lösung im
 wesentlichen richtig ist, gibt es den Punkt.  Die Übungsleitung kann
 Nachbesserungen verlangen.
 
-Die Aufgaben von Blatt 1 dienen zur Eingewöhnung.  Die nächsten 5 Blätter
-bilden die erste, die anderen 5 Blätter die zweite Hälfte des Kurses.  An der
-Klausur kann nur teilnehmen, wer in jedem der beiden Teile mindestens 40% der
-jeweils möglichen Punkte erworben hat.
+Die ersten 6 Blätter bilden die erste, die zweiten 6  Blätter die zweite Hälfte
+des Kurses.  An der Klausur kann nur teilnehmen, wer in jedem der beiden Teile
+mindestens 40% der jeweils möglichen Punkte erworben hat.
 
 Prüfungen
 ---------
