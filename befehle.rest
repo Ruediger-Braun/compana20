@@ -112,16 +112,3 @@ Symbole
     Ersetzung (Methode)
 
 
-
-
-
-
-+     ``=``
-
-      Zuweisung
-
-+     ``==``
-
-      Vergleichsoperator (später)
-
-
