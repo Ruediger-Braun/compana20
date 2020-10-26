@@ -1,0 +1,114 @@
+.. -*- coding: utf-8 -*-
+
+=========================================
+Computergestützte Mathematik zur Analysis
+=========================================
+
+-------------------------------------------------------------------
+Übersicht über die verwendeten Befehle, nach Lektionen geordnet
+-------------------------------------------------------------------
+
+.. contents:: Inhaltsverzeichnis
+              :backlinks: none
+
+Lektion 1
+*********
+
+Numerisch
+==========
+
++     ``+, -, *, /, **``
+
+      arithmetische Operatoren
+
+
+Symbolisch
+==========
+
++     ``from sympy import *``
+
+      Import der Bibliothek
+
+*     ``S(x)``
+
+      ``x`` als sympy-Ausdruck
+
++     ``Rational``
+	    
+      rationale Zahl (im Gegensatz zur Fließkommazahl)
+
+Funktionen
+==========
+
++     ``pi``
+
+      Kreiszahl
+
++     ``sin, cos, tan, cot``
+
+      trigonometrische Funktionen
+
++     ``asin, acos, atan, acot``
+
+      inverse trigonometrische Funktionen
+
++     ``sqrt``
+
+      Quadratwurzel
+
++     ``log, ln``
+
+      natürlicher Logarithmus
+
++     ``exp``
+
+      Exponentialfunktion
+
++     ``factorial``
+
+      Fakultät
+
+Beliebig genaue Fließkommazahlen
+================================
+
++   ``N``
+
+    numerische Auswertung
+
+Sympyfizierungen
+================
+
++   ``type``
+
+    Typ eines Objekts
+
+Variablen
+=========
+
++   ``=``
+
+    Zuweisung
+
+Symbole
+=======
+
++   ``x = S('x')``
+
+    Einrichtung eines Symbols
+
+
+
++   ``symplify``
+
+    Vereinfachung
+
++   ``==``
+
+    Vergleich 
+
+
++   ``subs``
+
+    Ersetzung (Methode)
+
+
