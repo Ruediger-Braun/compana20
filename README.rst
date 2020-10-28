@@ -58,6 +58,11 @@ verteilt.
 Übungsblätter
 -------------
 
+- `Blatt 1`_ 
+ 
+.. _`Blatt 1`: http://www.math.uni-duesseldorf.de/~braun/compana20/blatt1.pdf
+
+
 Übungspunkte
 ------------
 
@@ -71,6 +76,12 @@ Nachbesserungen verlangen.
 Die ersten 6 Blätter bilden die erste, die zweiten 6  Blätter die zweite Hälfte
 des Kurses.  An der Klausur kann nur teilnehmen, wer in jedem der beiden Teile
 mindestens 40% der jeweils möglichen Punkte erworben hat.
+
+Details zum Abgabemodus findet man auf `Seite der Übungen`_ im ILIAS.
+
+.. _`Seite der Übungen`: https://ilias.hhu.de/ilias/goto.php?target=crs_871976&client_id=UniRZ
+
+
 
 Prüfungen
 ---------
