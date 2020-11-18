@@ -61,10 +61,12 @@ verteilt.
 - `Blatt 1`_ 
 - `Blatt 2`_ 
 - `Blatt 3`_ 
+- `Blatt 4`_ 
  
 .. _`Blatt 1`: http://www.math.uni-duesseldorf.de/~braun/compana20/blatt1.pdf
 .. _`Blatt 2`: http://www.math.uni-duesseldorf.de/~braun/compana20/blatt2.pdf
 .. _`Blatt 3`: http://www.math.uni-duesseldorf.de/~braun/compana20/blatt3.pdf
+.. _`Blatt 4`: http://www.math.uni-duesseldorf.de/~braun/compana20/blatt4.pdf
 
 
 Übungspunkte
