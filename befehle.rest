@@ -9,7 +9,6 @@ Computergestützte Mathematik zur Analysis
 -------------------------------------------------------------------
 
 .. contents:: Inhaltsverzeichnis
-              :backlinks: none
 
 Lektion 1
 *********
@@ -71,9 +70,17 @@ Funktionen
 Beliebig genaue Fließkommazahlen
 ================================
 
-+   ``N``
++   ``N`` 
 
     numerische Auswertung
+
++   ``n``
+
+    numerische Auswertung als Methode
+
+    siehe auch `Bestimmte Integrale`_
+
+
 
 Sympyfizierungen
 ================
@@ -110,5 +117,296 @@ Symbole
 +   ``subs``
 
     Ersetzung (Methode)
+
+zurück zum Inhaltsverzeichnis_
+
+
+Lektion 2
+*********
+
+factor und expand
+=================
+
++   ``expand``
+
+    Ausmultiplizieren
+
++   ``factor``
+
+    Faktorisieren von Ausdrücken
+
++   ``cancel``
+
+    Kürzen 
+
+siehe auch Vereinfachungen_
+
+
+Objekte
+=======
+
++   ``is_prime``
+
+    Primzahltest (Methode)
+
+
+Primzahltest
+============
+
++   ``isprime``
+
+    Primzahltest (Funktion)
+
+Vereinfachungen
+===============
+
++   ``simplify``
+
+    unspezifische Vereinfachungen
+
++   ``ratsimp``
+
+    Vereinfachung von Brüchen
+
++   ``powsimp``
+
+    Vereinfachung von Potenzen
+
++   ``%%timeit``
+
+    ``jupyter``-Makro zur Laufzeitnessung
+
+Auswertung von Ausdrücken
+=========================
+
++   NaN
+
+    Not a Number (Ergebnis einer illegalen Fließkommaoperation)
+
+Grenzwerte
+==========
+
++   ``limit``
+
+    Grenzwert
+
++   ``oo``
+
+    Unendlich
+
++   ``Limit``
+
+    träger Operator zu ``limit``
+
++   ``doit``
+
+    Auswertung eines trägen Operators
+
+zurück zum Inhaltsverzeichnis_
+
+Lektion 3
+*********
+
+Ableitungen
+===========
+
++   ``diff``
+
+    Ableitung
+
+Beispiel: Grenzwert mot Regel von l'Hôpital
+===========================================
+
++   ``numer``
+
+    Zähler
+
++   ``denom``
+
+    Nenner
+
+Unbestimmte Integrale
+=====================
+
++   ``Integral``
+
+    Integral (träger Operator)
+
+Bestimmte Integrale
+===================
+
+Schleifen
+=========
+
++   ``range``
+
+    alle ganzen Zahlen zwischen zwei Grenzen
+
++   ``list``
+
+    Umwandlung in Liste
+
++   ``for``
+
+    Schleife, der Schleigenkörper wird durch Einrückung kenntlich gemacht
+
++   ``display``
+
+    mathematisch korrekt gesetzte Ausgabe
+
+Listen
+======
+
++   ``[ ]``
+
+    Listen werden in eckigen Klammern zusammengefasst
+
++   ``append``
+
+    hinzufügen zu Liste
+
++   ``len``
+
+    Anzahl der Elemente
+
+Boolesche Operatoren
+====================
+
++   ``==``, ``!=``
+
+    Test auf Gleichheit bzw. Ungleichheit
+
++   ``>``, ``>=``, ``<``, ``<=``
+
+    Größenvergleich
+
++   ``True``, ``False``
+
+    Wahrheitswerte
+
++   ``&``
+
+    und
+
++   ``|``
+
+    oder
+
+Verzweigungen
+=============
+
++   ``if``, ``elif``, ``else``
+
+    Verzweigung, die jeweils auszuführenden Zeilen werden durch Einrückung kenntlich gemacht
+
++   ``break``
+
+    Sprung aus einer Schleife heraus
+
+Polynome
+========
+
++   ``coeff``
+
+    Koeffizienten
+
++   ``collect``
+
+    Zusammenfassen von Koeffizienten
+
+zurück zum Inhaltsverzeichnis_
+
+Lektion 4
+*********
+
+Tücke bei coeff
+===============
+
+Dictionary
+==========
+
++   ``{ }``
+
+    Dictionary (assoziativer Speicher)
+
++   ``d[key] = value``
+
+    Zugriff auf Element eines Dictionaries
+
+Dictionaries und Substitution
+=============================
+
+Mengen
+======
+
++   ``set``
+
+    Menge
+
++   ``&``
+
+    Durchschnitt
+
++   ``|``
+
+    Vereinigung
+
++   ``add``
+
+    Hinzufügen eines Elements (siehe `Lösungen von Gleichungen`_
+
+Funktionen
+==========
+
++   ``def``
+
+    Einleitung einer Funktionsdefinition, die Definition wird durch Einrückung markiert
+
++   ``return``
+
+    Rückgabewert
+
+Rekursion
+=========
+
++   ``raise``
+
+    Auslösen einer Fehlerbedingung
+
++   ``ValueError``
+
+    eine der vordefinierten Fehlerbedingungen
+
+Fibonacci-Zahlen
+================
+
++   ``Eq``
+
+    Gleichung
+
+Lösungen von Gleichungen
+========================
+
++   ``solve``
+
+    Lösen einer Gleichungen
+
++   ``add``
+
+    Hinzufügen eines Elements zu einer Menge
+
+Lösung in Abhängigkeit von Parametern
+=====================================
+
+
+
+
+
+
+
+
+
+
+
 
 
