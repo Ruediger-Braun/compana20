@@ -353,7 +353,7 @@ Mengen
 
 +   ``add``
 
-    Hinzufügen eines Elements (siehe `Lösungen von Gleichungen`_
+    Hinzufügen eines Elements (siehe `Lösungen von Gleichungen`_)
 
 Funktionen
 ==========
