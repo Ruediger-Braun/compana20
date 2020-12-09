@@ -64,6 +64,7 @@ verteilt.
 - `Blatt 4`_ 
 - `Blatt 5`_ 
 - `Blatt 6`_ 
+- `Blatt 7`_ 
  
 .. _`Blatt 1`: http://www.math.uni-duesseldorf.de/~braun/compana20/blatt1.pdf
 .. _`Blatt 2`: http://www.math.uni-duesseldorf.de/~braun/compana20/blatt2.pdf
@@ -71,6 +72,7 @@ verteilt.
 .. _`Blatt 4`: http://www.math.uni-duesseldorf.de/~braun/compana20/blatt4.pdf
 .. _`Blatt 5`: http://www.math.uni-duesseldorf.de/~braun/compana20/blatt5.pdf
 .. _`Blatt 6`: http://www.math.uni-duesseldorf.de/~braun/compana20/blatt6.pdf
+.. _`Blatt 7`: http://www.math.uni-duesseldorf.de/~braun/compana20/blatt7.pdf
 
 
 Übungspunkte
