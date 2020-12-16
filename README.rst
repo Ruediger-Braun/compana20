@@ -120,6 +120,12 @@ muss die Zulassung neu erwerben,
 wenn er oder sie später einmal an einer Prüfung zu Computergestützte
 Mathematik zur Analysis teilnehmen will.
 
+Prüfungstermine
+---------------
+
+* Erste Klausur:  Di, 02.03.2021, Uhrzeit wird noch bekannt gegeben
+* Zweite Klausur: Di, 06.04.2021, Uhrzeit wird noch bekannt gegeben
+
 Manuals
 -------
 
