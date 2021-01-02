@@ -135,3 +135,4 @@ konsultieren
 
 -  `jupyter <http://nbviewer.jupyter.org/github/jupyter/notebook/blob/master/docs/source/examples/Notebook/Notebook%20Basics.ipynb>`__
 -  `sympy <http://docs.sympy.org/dev/tutorial/>`__
+ 
