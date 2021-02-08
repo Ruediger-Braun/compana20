@@ -9,8 +9,8 @@ Klausurhilfsmittel
 
 Auf den Klausurrechnern werden die folgenden Hilfsmittel zur Verfügung stehen:
 
-* alle Lektionen als Notebook (.ipynb) und als pdf
-* die Datei befehle.rst als HTML (also durchsuchbar); bis zur Klausur werde ich diese Datei aktualisiert haben
+- alle Lektionen als Notebook (.ipynb) und als pdf
+- die Datei befehle.rst als HTML (also durchsuchbar); bis zur Klausur werde ich diese Datei aktualisiert haben
 
 Eigene Hilfsmittel dürfen Sie nicht mitbringen.
 
