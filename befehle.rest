@@ -395,16 +395,501 @@ Lösungen von Gleichungen
 
     Hinzufügen eines Elements zu einer Menge
 
-Lösung in Abhängigkeit von Parametern
-=====================================
+Lektion 5
+*********
+
+``sympy`` rechnet komplex
+=========================
+
++   ``I``
+
+    imaginäre Einheit
+
++   ``expand(`` ausdruck ``, complex=True)``
+
+    Beachtung von Real- und Imaginärteil
+
+Annahmen (assumptions)
+======================
+
++   ``Symbol(x, real=True)``
+        
+    das Symbol wird als reell vereinbart
+
+    Andere Annahmen: ``positive``, ``ǹegative``, ``integer``, ``even``, ``odd``
+
++   ``_assumptions``
+
+    zeigt die zu einem Objekt vereinbarten Annahmen (Methode)
+
+Die Lambertsche W-Funktion
+==========================
+
++   ``LambertW``
+
+    W-Funktion
+
+Mengen von Nullstellen
+======================
+
++   ``solveset``
+
+    Lösungsmenge (ähnlich ``solve``, aber andere Ausgabe)
+
++   ``solveset(glg, domain=Reals)``
+
+    suche nach reellen Lösungen
+
++   ``Interval``
+
+    Intervall
+
+Nullstellen von Polynomen
+=========================
+
++   ``is_real``
+
+    Test, ob Ausdruck reell (Attribut)
+
+Einfache Plots
+==============
+
++   ``plot``
+
+    2D-Plot einer ``sympy``-Ausdrucks; der Plot besitzt unter anderem die
+    Methoden ``append``, ``legend`` und ``show``
+
+Lektion 6
+*********
+
+Annahmen bei Integralen
+=======================
+
+Die Argumentfunktion
+====================
+
+Beispiel für ein Integral einer periodischen Funktion
+=====================================================
+
++   ``floor``
+
+    größte ganze Zahl unterhalb des Arguments 
+
++   ``ceil``
+
+    kleinste ganze Zahl oberhalb des Arguments  
+
++   ``replace``
+
+    Ersetzung, mächtiger als ``subs``
+
+weitere Integrale
+=================
+
+Summen
+======
+
++   ``Sum``
+
+    Reihe (unausgewertet, Auswertung mit ``doit``)
+
++   ``Piecewise``
+
+    stückweise definierter Ausdruck
+
+Zeichenketten
+=============
+
++   durch ``"`` oder ``'`` begrenzt
+
++   ``f"{a}"``
+    
+    Ausgabe des Werts der Variablen
+
++   ``format``
+
+    Formatierte Ausgabe von Werten von Variablen
+
+Lektion 7
+*********
+
+Polarkoordinaten
+================
+
++   ``atan``
+
+    Arcustangens
+
++   ``atan2``
+
+    Winkel in der Ebene
+
+Potenzfunktionen
+================
+
+nutzergesteuerte trigonometrische Vereinfachungen
+=================================================
+
++   ``trigsimp(`` Ausdruck ``, method=fu, measure=f)``
+
+    trigonometrische Vereinfachungen wie in der Arbeit von Fu mit
+    Komplexitätsmaß f
+
++   ``count_ops(visual=True)``
+
+    Zahl der Operationen im Syntaxbaum eines Ausdrucks
+
+nutzergesteuertes ``symplify``
+==============================
+
++   ``symplify(measure=f)``
+
+    Vereinfachung, die das Komplexitätsmaß f minimiert
 
 
+Reihenentwicklungen
+===================
 
++   ``series``
 
+    Reihenentwicklung (Taylor-, Laurent- oder auch allgemeinere Reihe)
 
++   ``removeO``
 
+    entfernt Landau-Symbol
 
+Beispiel mit der Lambert-Funktion
+=================================
 
+Lektion 8
+*********
+
+Vektoren und Matrizen
+=====================
+
++   ``Matrix``
+
+    Matrix
+
++   ``col``
+
+    Spalte
+
++   ``row``
+
+    Zeile
+
+variable Vektoren
+=================
+
++   ``symbols('x0:10')``
+
+    erzeugt 10-Tupel von Symbolen
+
+Spezielle Matrizen
+==================
+
++   ``eye``
+
+    Einheitsmatrix
+
++   ``ones``
+
+    Matrix aus Einsen
+
++   ``zeros``
+
+    Matrix aus Nullen
+
++   ``diag``
+
+    Diagonalmatrix
+
+Operationen
+===========
+
++   ``det``
+
+    Determinante
+
++   ``inv``
+
+    Inverse
+
+Inspektion
+==========
+
++   ``shape``
+
+    Gestalt bzw. Größe einer Matrix oder eines Arrays
+
+Manipulation von Matrizen
+=========================
+
++   ``hstack``, ``vstack``
+
+    Stapel von Matrizen, horizontal und vertikal
+
++   ``reshape``
+
+    Umformung
+
++   ``faltten``
+
+    Verwandlung in Liste
+
+Hilbert-Matrizen
+================
+
+Rang einer Matrix
+=================
+
++   ``rank``
+
+    Rang
+
++   ``rref``
+
+    Zeilenstufenform
+
++   ``elementary_row_op``
+
+    elememtare Zeilenumformung
+
+Lektion 9
+*********
+
++   ``nullspace``
+
+    Kern
+
+Eigenwerte und Eigenvektoren
+============================
+
++   ``eigenvals``
+
+    Eigenwerte
+
++   ``èigenvects``
+
+    Eigenwerte und Eigenvektoren
+
+Jordanform
+==========
+
++   ``jordan_form``
+
+    Jordansche Normalform
+
+Normen von Vektoren und Matrizen
+================================
+
++   ``norm``
+
+    Norm
+
+Vektoranalysis
+==============
+
++   ``jacobian``
+
+    Jacobi-Matrix
+
++   ``hessian``
+
+    Hesse-Matrix
+
+Extremwerte in mehreren Veränderlichen
+======================================
+
+Lektion 10
+**********
+
++   ``plotting.plot3d``
+
+    3D-Plot eines ``sympy``-Asudrucks
+
++   ``plotting.plot3d_parametric_surface``
+
+    3D-Plot einer Fläche
+
+``numpy`` und universal functions
+=================================
+
++   ``import numpy as np``
+
+    Import der Pakete numerischen Grundversorgung
+
++   ``array``
+
+    numerische, mehrdimensionale Datenstruktur
+
++   ``@``
+
+    Matrixmultiplikation von 2D-Arrays
+
++   Broadcasting
+
+    Zwei Arrays werden durch Wiederholung von Teilstrukturen auf dieselbe Form gebracht
+
++   ``np.linspace``
+
+    gleichmäßige Zerlegung eines Intervalls
+
+universal functions
+===================
+
++   ``dtype``
+
+    Datentyp der Elemente eines Arrays
+
+``pyplot``
+==========
+
++   ``from matplotlib import pyplot as plt``
+
+    das große Plotpaket von Python
+
++   ``plt.plot``
+
+    Plot eines Polygonzugs
+
++   ``plt.legend``
+
+    Legende
+
++   ``np.meshgrid``
+
+    zwei Arrays mit konstaten Zeilen bzw. Spalten
+
++   ``plt.imshow``
+
+    2D-Bild einer Matrix
+
++   ``plt.colorbar``
+
+    Anzeige der Farbkodierung
+
++   ``plt.imread``
+
+    Einlesen eines Bildes in eine Matrix
+
++   ``lambdify``
+
+    Erzeugung einer universal function aus einem ``sympy``-Ausdruck
+
+Lektion 11
+**********
+
+3D-Plots mit ``matplotlib``
+
++   ``from mpl_toolkits.mplot3d import Axes3D``
+
+    Laden der 3D-Bibliothek von ``matplotlib``
+
++   ``plt.figure``
+
+    Anlage eines leeren Bildes
+
++   ``add_subplot``
+
+    Hinzufügen von Koordinatensystemen zu einem Bild
+
++   ``plot_surface``
+
+    Zeichnen einer Fläche
+
++   ``plt.savefig``
+
+    Speichern eines Bildes
+
++   ``plot_wireframe``
+
+    Zeichnen einer Fläche als Gitternetz
+
++   ``view_init``
+
+    Betrachtungsrichtung
+
++   ``set_xticks``, ``set_yticks``, ``set_zticks``
+
+    Markierungen auf den Achsen
+
++   ``set_zlim``, ``set_zlim3d``
+
+    Ausschnitt der z-Achse festlegen (funktioniert aber nicht immer)
+
+Contourplots
+============
+
++   ``contour``
+
+    Contourplot
+
++   ``np.concatenate``
+
+    Verbinden zweier Arrays
+
++   ``np.sort``
+
+    Sortieren eines Arrays
+
++   ``plt.Normalize``
+
+    Gibt eine Norm zurück, die zur Färbung eines Plots verwendet werden kann
+
+Gewöhnliche Differentialgleichungen
+===================================
+
++   ``Function``
+
+    Symbol für eine Funktion
+
++   ``dsolve``
+    
+    Lösung einer Differentialgleichung
+
+Anfangswertaufgabe
+==================
+
+Zeichnung der Richtungsfelds
+============================
+
++   ``np.zeros_like``, ``np.ones_like``
+
+    Array von Nullen bzw. Einsen mit shape und Type wie der vorgegebene
+
++   ``quiver``
+
+    Köcher, also eine Zuordnung von Pfeilen zu Gitterpunkten
+
+Definitionsbereiche
+===================
+
+Lektion 12
+**********
+
+Differentialgleichungen höherer Ordnung
+=======================================
+
+Besselfunktionen
+================
+
++   ``besselj``, ``bessely``
+
+    Besselfunktionen
+
++   ``classify_ode``
+
+Gekoppelte Pendel
+=================
+
+Matrixexponentiale
+==================
+
++   ``M.exp``
+
+    Matrixexponetial der Matrix M
 
 
 
