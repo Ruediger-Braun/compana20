@@ -456,7 +456,7 @@ Einfache Plots
 
 +   ``plot``
 
-    2D-Plot einer ``sympy``-Ausdrucks; der Plot besitzt unter anderem die
+    2D-Plot eines ``sympy``-Ausdrucks; der Plot besitzt unter anderem die
     Methoden ``append``, ``legend`` und ``show``
 
 Lektion 6
@@ -634,7 +634,7 @@ Manipulation von Matrizen
 
     Umformung
 
-+   ``faltten``
++   ``flatten``
 
     Verwandlung in Liste
 
