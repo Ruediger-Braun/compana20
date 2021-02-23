@@ -4,6 +4,14 @@ compana20
 Materialien zur Vorlesung "Computergestützte Mathematik zur Analysis" im
 WS 2020/21
 
+Neuigkeiten
+-----------
+
+Die Klausur beginnt um 12:00.  Der Einlass erfolgt gestaffelt, alle Teilnehmenden erhalten eine Mail mit dem Ort und der Zeit, zu der sie sich einfinden sollen.
+
+Die Datei `befehle.rest` ist jetzt fertig.  
+
+
 Klausurhilfsmittel
 ------------------
 
@@ -142,7 +150,7 @@ Mathematik zur Analysis teilnehmen will.
 Prüfungstermine
 ---------------
 
-* Erste Klausur:  Di, 02.03.2021, Uhrzeit wird noch bekannt gegeben
+* Erste Klausur:  Di, 02.03.2021, 12:00
 * Zweite Klausur: Di, 06.04.2021, Uhrzeit wird noch bekannt gegeben
 
 Manuals
