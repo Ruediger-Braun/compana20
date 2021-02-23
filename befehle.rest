@@ -891,7 +891,7 @@ Matrixexponentiale
 
     Matrixexponetial der Matrix M
 
-
+.. Verwandlung in html:  pandoc -s -o befehle.html --toc befehle.rst 
 
 
 
