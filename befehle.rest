@@ -395,6 +395,8 @@ Lösungen von Gleichungen
 
     Hinzufügen eines Elements zu einer Menge
 
+zurück zum Inhaltsverzeichnis_
+
 Lektion 5
 *********
 
@@ -459,6 +461,8 @@ Einfache Plots
     2D-Plot eines ``sympy``-Ausdrucks; der Plot besitzt unter anderem die
     Methoden ``append``, ``legend`` und ``show``
 
+zurück zum Inhaltsverzeichnis_
+
 Lektion 6
 *********
 
@@ -510,6 +514,8 @@ Zeichenketten
 
     Formatierte Ausgabe von Werten von Variablen
 
+zurück zum Inhaltsverzeichnis_
+
 Lektion 7
 *********
 
@@ -560,6 +566,8 @@ Reihenentwicklungen
 
 Beispiel mit der Lambert-Funktion
 =================================
+
+zurück zum Inhaltsverzeichnis_
 
 Lektion 8
 *********
@@ -656,6 +664,8 @@ Rang einer Matrix
 
     elememtare Zeilenumformung
 
+zurück zum Inhaltsverzeichnis_
+
 Lektion 9
 *********
 
@@ -701,6 +711,8 @@ Vektoranalysis
 
 Extremwerte in mehreren Veränderlichen
 ======================================
+
+zurück zum Inhaltsverzeichnis_
 
 Lektion 10
 **********
@@ -777,6 +789,8 @@ universal functions
 +   ``lambdify``
 
     Erzeugung einer universal function aus einem ``sympy``-Ausdruck
+
+zurück zum Inhaltsverzeichnis_
 
 Lektion 11
 **********
@@ -865,6 +879,8 @@ Zeichnung der Richtungsfelds
 
 Definitionsbereiche
 ===================
+
+zurück zum Inhaltsverzeichnis_
 
 Lektion 12
 **********
