@@ -4,21 +4,13 @@ compana20
 Materialien zur Vorlesung "Computergestützte Mathematik zur Analysis" im
 WS 2020/21
 
-Neuigkeiten
------------
-
-Die Klausur beginnt um 12:00.  Der Einlass erfolgt gestaffelt, alle Teilnehmenden erhalten eine Mail mit dem Ort und der Zeit, zu der sie sich einfinden sollen.
-
-Die Datei `befehle.rest` ist jetzt fertig.  
-
-
 Klausurhilfsmittel
 ------------------
 
 Auf den Klausurrechnern werden die folgenden Hilfsmittel zur Verfügung stehen:
 
-- alle Lektionen als Notebook (.ipynb) und als pdf
-- die Datei befehle.rest als HTML (also durchsuchbar); bis zur Klausur werde ich diese Datei aktualisiert haben
+- alle Lektionen als pdf
+- die Datei befehle.rest als HTML (also durchsuchbar)
 
 Eigene Hilfsmittel dürfen Sie nicht mitbringen.
 
